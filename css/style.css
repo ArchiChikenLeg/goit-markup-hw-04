@@ -380,7 +380,8 @@ main {
   fill: #f4f4fd;
 }
 .section-team-social-icon:hover,
-.section-team-social-icon:focus {
+.section-team-social-icon:focus,
+.section-team-social-icon:active {
   background-color: var(--pressed-state-color);
   cursor: pointer;
 }
@@ -471,6 +472,9 @@ main {
   padding: 100px 0px;
 }
 
+.footer-ingfo{
+    margin-right: 120px;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -495,7 +499,7 @@ main {
 
 footer .container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 
 .footer-social-header {
@@ -507,7 +511,11 @@ footer .container {
   margin-bottom: 16px;
 }
 
+footer .section-team-card-socials{
+    gap: 16px; 
+}
 footer .section-team-social-icon:hover,
-footer .section-team-social-icon:focus {
+footer .section-team-social-icon:focus,
+footer .section-team-social-icon:active {
   background-color: var(--success-color);
 }
