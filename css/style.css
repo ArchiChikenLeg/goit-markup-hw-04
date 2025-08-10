@@ -354,6 +354,7 @@ main{
     background-color: var(--primary-brand-color);
     width: 40px;
     height: 40px;
+    font-size: 16px;
 }
 
 .section-portfolio{
